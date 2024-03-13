@@ -9,7 +9,7 @@ function handleEnter() {
 
 const dropdown = this.querySelector('.dropdown');
 const dropdownCoords = dropdown.getBoundingClientRect();
-const navCoords = nav.getBoundingClientRect();
+const navCoords = nav.getBoundingClientRect()
 
 const coords = {
   height: dropdownCoords.height,

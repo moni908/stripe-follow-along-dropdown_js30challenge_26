@@ -16,6 +16,11 @@ body {
      linear-gradient(315deg, hsla(35, 95% 55%, 1) 0% hsla(35, 95% 55%, 0) 70%);
 }
 
+h2 {
+  margin-top: 0;
+  padding-top: .8em;
+}
+
 nav {
   position: relative;
   perspective: 600px;
