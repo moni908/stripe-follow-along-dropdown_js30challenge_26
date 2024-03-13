@@ -29,4 +29,4 @@ background.classList.remove('open');
 }
 
 triggers.forEach(trigger => trigger.addEventListener('mouseenter', handleEnter));
-triggers.forEach(trigger => trigger.addEventListener('mouseleave', handleLeave));
+triggers.forEach(trigger => trigger.addEventListener('mouseleave', handleLeave)); //'mouseleave', handleEnter - changed to handleLeave
